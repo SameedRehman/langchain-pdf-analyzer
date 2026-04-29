@@ -20,14 +20,14 @@ def load_any_file(file_path):
     return loader.load()
 
 loader = TextLoader("The history of monsters.txt")
-docs = load_any_file("/home/sameed/langchain_project/The history of monsters.txt")
+docs = load_any_file("file path")
 # print(docs[0].page_content)
 monster_text = docs[0].page_content
 
 
 
-pdf_loader = PyPDFLoader("/home/sameed/Downloads/Atomic_Habits_100_Page_Mimic.pdf")
-pdf_docs = load_any_file("/home/sameed/Downloads/Atomic_Habits_100_Page_Mimic.pdf")
+pdf_loader = PyPDFLoader("file path")
+pdf_docs = load_any_file("file path")
 
 print(f"Loaded {len(pdf_docs)} pages from the document")
 pdf_text = pdf_docs[0].page_content + pdf_docs[1].page_content
