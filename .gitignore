@@ -1,0 +1,9 @@
+.venv/
+venv/
+env/
+lc_project/
+__pycache__/
+.env
+*.pdf
+*.txt
+.DS_Store
