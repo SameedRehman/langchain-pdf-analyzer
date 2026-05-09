@@ -3,6 +3,10 @@ venv/
 env/
 lc_project/
 __pycache__/
+main.py/
+.ipynb_checkpoints/
+*.ipynb
+.ipynb/
 .env
 *.pdf
 *.txt
